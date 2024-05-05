@@ -1,0 +1,375 @@
+.reponse-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://img.freepik.com/photos-gratuite/couple-mariage-france_1303-5584.jpg?w=996&t=st=1714076641~exp=1714077241~hmac=c731b3408528efb22af8cb9dd0f48e735c5cfc870b6ba87b8221fbd598338814');
+  background-position: center;
+}
+.reponse-navbar-interactive {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #000000;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #c0cbad;
+}
+.reponse-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.reponse-links {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.reponse-navlink {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.reponse-navlink1 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Dancing Script";
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.reponse-text {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  margin-left: var(--dl-space-space-twounits);
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.reponse-text01 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  margin-left: var(--dl-space-space-twounits);
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.reponse-navlink2 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  margin-left: var(--dl-space-space-twounits);
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  text-decoration: none;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.reponse-burger-menu {
+  display: none;
+}
+.reponse-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.reponse-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.reponse-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.reponse-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.reponse-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reponse-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.reponse-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.reponse-navlink3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.reponse-navlink4 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.reponse-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reponse-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reponse-navlink5 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.reponse-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#reponse-form {
+  width: 50%;
+  height: 490px;
+  display: flex;
+  align-items: center;
+  animation-name: fadeIn;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-start;
+  animation-duration: 2000ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.reponse-text06 {
+  font-size: 25px;
+}
+.reponse-text07 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Dancing Script";
+  font-weight: 700;
+}
+.reponse-textinput {
+  width: 259px;
+  height: 36px;
+  align-self: center;
+}
+.reponse-text09 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Dancing Script";
+  font-weight: 700;
+}
+.reponse-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reponse-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reponse-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reponse-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reponse-text12 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+}
+.reponse-text15 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+}
+.reponse-text16 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+}
+.reponse-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reponse-container6 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reponse-container7 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reponse-text17 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+}
+.reponse-text18 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+}
+.reponse-textinput1 {
+  width: 211px;
+  height: 32px;
+}
+.reponse-text19 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+}
+.reponse-button {
+  transition: 0.3s;
+  background-color: #c0cbad;
+}
+
+@media(max-width: 767px) {
+  .reponse-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .reponse-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .reponse-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reponse-navlink4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reponse-text04 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reponse-text05 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reponse-navlink5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .reponse-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+    padding-left: 16px;
+  }
+  .reponse-desktop-menu {
+    display: none;
+  }
+  .reponse-burger-menu {
+    display: flex;
+  }
+  .reponse-mobile-menu {
+    padding: 16px;
+    background-color: #c0cbad;
+  }
+  .reponse-nav {
+    animation-name: none;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
+  .reponse-navlink3 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .reponse-navlink4 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .reponse-text04 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .reponse-text05 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .reponse-navlink5 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  #reponse-form {
+    width: 287px;
+  }
+  .reponse-text07 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+}

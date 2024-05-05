@@ -1,0 +1,351 @@
+.mairie-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("image/close-up-wedding-bouquet.jpg");
+  background-position: center;
+}
+.mairie-navbar-interactive {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #000000;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #c0cbad;
+}
+.mairie-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.mairie-links {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.mairie-navlink {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.mairie-navlink1 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Dancing Script";
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.mairie-text {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  margin-left: var(--dl-space-space-twounits);
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.mairie-text01 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  margin-left: var(--dl-space-space-twounits);
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.mairie-navlink2 {
+  font-size: 25px;
+  font-family: "Dancing Script";
+  margin-left: var(--dl-space-space-twounits);
+  animation-name: slideInRight;
+  animation-delay: 0s;
+  text-decoration: none;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.mairie-burger-menu {
+  display: none;
+}
+.mairie-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.mairie-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.mairie-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mairie-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.mairie-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mairie-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.mairie-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mairie-navlink3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mairie-navlink4 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mairie-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mairie-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mairie-navlink5 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mairie-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mairie-text06 {
+  fill: #d4af37;
+  color: #d4af37;
+  font-size: 45px;
+  font-style: normal;
+  margin-top: 35px;
+  font-family: "Dancing Script";
+  font-weight: 700;
+}
+.mairie-text09 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 25px;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-weight: 700;
+}
+.mairie-text10 {
+  fill: #d4af37;
+  color: #d4af37;
+  font-size: 50px;
+  font-style: normal;
+  margin-top: 25px;
+  font-family: "Dancing Script";
+  font-weight: 700;
+}
+.mairie-text11 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+  font-size: 30px;
+  font-style: normal;
+  margin-top: 25px;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-weight: 700;
+}
+@media(max-width: 767px) {
+  .mairie-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    background-position: center;
+  }
+  .mairie-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .mairie-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .mairie-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mairie-navlink4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mairie-text04 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mairie-text05 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mairie-navlink5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .mairie-container {
+    background-position: center;
+  }
+  .mairie-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+    padding-left: 16px;
+  }
+  .mairie-desktop-menu {
+    display: none;
+  }
+  .mairie-burger-menu {
+    display: flex;
+  }
+  .mairie-mobile-menu {
+    padding: 16px;
+    background-color: #c0cbad;
+  }
+  .mairie-nav {
+    animation-name: none;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
+  .mairie-navlink3 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-navlink4 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text04 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text05 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-navlink5 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text11 {
+    font-size: 40px;
+    font-style: normal;
+    font-family: Dancing Script;
+    font-weight: 700;
+  }
+  .mairie-text12 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text13 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text14 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text15 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text16 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text17 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text18 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text19 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text20 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text21 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text23 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text24 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text26 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+  .mairie-text27 {
+    font-size: 25px;
+    font-family: Dancing Script;
+  }
+}
